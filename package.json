@@ -15,6 +15,7 @@
     "dynamic",
     "component"
   ],
+  "homepage": "https://dynamictablevue3.vercel.app/",
   "author": "Esteban Cortes",
   "license": "MIT",
   "private": false,

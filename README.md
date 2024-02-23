@@ -1,4 +1,6 @@
 # **Dynamic Table Vue3**
+<img src="https://i.ibb.co/fF0T29d/demostracion.png" width="80%" style="border-radius:135px">
+
 Este componente Vue.js permite a los usuarios visualizar datos en una tabla, buscar dentro de los datos, ordenar columnas, seleccionar la cantidad de filas visibles por página, navegar a través de las páginas de datos, y descargar los datos visibles en formato CSV o Excel. Además, los usuarios pueden personalizar las columnas visibles mediante un modal.
 
 ## Propiedades (props)
