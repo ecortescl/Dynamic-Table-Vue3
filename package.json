@@ -35,5 +35,11 @@
   },
   "peerDependencies": {
     "vue": "^3.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.js"
+    }
   }
 }
