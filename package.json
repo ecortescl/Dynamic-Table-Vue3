@@ -1,9 +1,10 @@
 {
   "name": "dynamic-table-vue3",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Componente dinámico de Vue que genera una tabla dinámica",
-  "main": "dist/dynamic-table-vue3.es.js",
+  "main": "dist/dynamic-table-vue3.umd.js",
   "module": "dist/dynamic-table-vue3.es.js",
+  "style": "dist/style.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/ecortescl/dynamictablevue3"
