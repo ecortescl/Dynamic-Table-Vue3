@@ -10,17 +10,19 @@
 
 Here're some of the project's best features:
 
+<h3>Props: </h3>
 
-* data: Array de objetos que representa los datos a mostrar en la tabla. Requerido.
+* Data: Array of objects representing the data to be displayed in the table. Required.
 
-* translations: Objeto que mapea los campos de los datos a sus traducciones para mostrar en los encabezados de la tabla. Por defecto es un objeto vacío.
+* Translations: Object mapping data fields to their translations for display in the table headers. Default is an empty object.
 
-* visibleColumns: Array de cadenas que representa las columnas que deben ser visibles inicialmente. Por defecto es un array vacío.
+* VisibleColumns: Array of strings representing the columns that should be initially visible. Default is an empty array.
 
-* edit: String que representa la base de la URL para la acción de editar utilizada para construir las URLs de los botones de edición.
+* Edit: String representing the base URL for the edit action used to construct the URLs for edit buttons.
 
-* show: String que podría usarse para construir URLs para una acción de "mostrar" aunque no se utiliza en este componente.
-Methods:
+* Show: String that could be used to build URLs for a "show" action although it's not utilized in this component.
+
+<h3>Methods: </h3>
 
 -   **organizeData():** Prepares the data to be displayed in the table. Automatically called when the component is created.
     
