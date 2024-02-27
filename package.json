@@ -2,9 +2,8 @@
   "name": "dynamic-table-vue3",
   "version": "1.0.2",
   "description": "Componente dinámico de Vue que genera una tabla dinámica",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/dynamic-table-vue3.es.js",
+  "module": "dist/dynamic-table-vue3.es.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ecortescl/dynamictablevue3"
@@ -15,6 +14,9 @@
     "dynamic",
     "component"
   ],
+  "files": [
+    "dist"
+  ],  
   "homepage": "https://dynamictablevue3.vercel.app/",
   "author": "Esteban Cortes",
   "license": "MIT",
@@ -35,11 +37,5 @@
   },
   "peerDependencies": {
     "vue": "^3.0.0"
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.js"
-    }
   }
 }
